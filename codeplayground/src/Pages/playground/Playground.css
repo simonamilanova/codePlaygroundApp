@@ -1,0 +1,55 @@
+.container {
+  height: 70%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  overflow-x: hidden;
+}
+
+.editorContainer {
+  height: 90vh;
+}
+
+.right {
+  right: 0px;
+  top: 75px;
+}
+
+.left {
+  left: 0px;
+  background-color: #1e1e1e;
+}
+
+.roomInputSection {
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+  padding-left: 50px;
+  background-color: #1e1e1e;
+  padding-bottom: 75px;
+}
+
+.roomInfo {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.roomInfo p {
+  color: white;
+  margin-right: 20px;
+}
+
+.joinSessionContainer {
+  display: flex;
+  flex-direction: row;
+  background-color: #1e1e1e;
+}
+
+.joinSessionContainer input {
+  width: 200px;
+  height: 40px;
+  border: 1px solid #1e1e1e;
+  border-radius: 10px;
+  margin-right: 20px;
+}

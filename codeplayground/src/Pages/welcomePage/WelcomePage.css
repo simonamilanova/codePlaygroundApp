@@ -1,0 +1,35 @@
+.mainContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #1e1e1e;
+  }
+  
+  .mainContainer h1 {
+    margin-bottom: 20px;
+    color: #e0dbdb;
+  }
+
+  .mainContainer h3 {
+    margin-bottom: 20px;
+    color: #e0dbdb;
+  }
+  .mainContainer p {
+    color: #e0dbdb;
+  }
+  
+  .mainContainer button {
+    margin: 10px 0;
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .mainContainer button:hover {
+    background-color: #45a049;
+  }

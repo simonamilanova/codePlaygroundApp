@@ -1,0 +1,30 @@
+.languageContainer {
+  background-color: #1e1e1e;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width: '50%'
+}
+
+.labelContainer {
+  color: #e0dbdb;
+  margin-right: 5px;
+}
+
+.selectContainer {
+  padding: 5px;
+  background-color: #1e1e1e;
+  color: #e0dbdb;
+  height: 35px;
+  border-radius: 5px;
+  width: 155px;
+}
+
+.languageContainer span {
+  color: #e0dbdb;
+  padding-left: 50px;
+}
+
+.languageContainer button {
+  margin-left: 60%;
+}
